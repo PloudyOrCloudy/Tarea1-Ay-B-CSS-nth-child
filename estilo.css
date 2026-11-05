@@ -1,0 +1,36 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    color: rgba(211, 120, 59, 0.836);
+    letter-spacing: 1ch;
+}
+h2 {
+    color: mediumseagreen !important;
+    content: "!!!";
+}
+h2::after {
+    content: "!!!";
+}
+p::first-line {
+  font-style: italic;
+  color: #444432;
+}
+li:nth-child(odd) {
+    background-color: papayawhip;
+}
+li:first-child{
+    color: blue;
+    font-size: 5mm;
+}
+li:nth-child(2){
+    color: orange;
+    font-size: 8mm;
+}
+li:nth-child(even) {
+    font-size: 10mm;
+}
+li:last-child{
+    color: green;
+    font-size: 12mm;
+}

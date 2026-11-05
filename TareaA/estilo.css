@@ -20,8 +20,12 @@ ul {
     background-color: white;
 }
 li:nth-child(odd) {
+    width: auto;
+    margin: 2mm;
     background-color: papayawhip;
 }
 li:nth-child(even) {
+    width: auto;
+    margin: 2mm;
     background-color: lightcoral;
 }
